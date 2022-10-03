@@ -161,8 +161,8 @@ def Welcome_func():
             break
     return action
 
-print(timeit.timeit('Reverse_of_matrix([[5,4],[1,1]])', globals=globals(),number=1000000))                             # РАСКОММЕНТИРОВАТЬ ДЛЯ ПОЛУЧЕНИЯ РЕЗ
-breakpoint()
+#print(timeit.timeit('Reverse_of_matrix([[5,4],[1,1]])', globals=globals(),number=1000000))                             # РАСКОММЕНТИРОВАТЬ ДЛЯ ПОЛУЧЕНИЯ РЕЗ
+#breakpoint()
 
 while True:
     action = Welcome_func()
